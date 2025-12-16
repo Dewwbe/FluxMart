@@ -1,0 +1,20 @@
+server:
+  port: 8084
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cart
+    username: postgres
+    password: dew123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: super-secret-jwt-key-change-in-prod
+
+logging:
+  level:
+    org.springframework.security: DEBUG
