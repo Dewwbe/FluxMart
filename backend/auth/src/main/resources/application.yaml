@@ -17,5 +17,5 @@ spring:
         format_sql: true
 
 jwt:
-  secret: "super-secret-jwt-key-change-in-prod"
+  secret: "super-secret-jwt-key-change-in-prod-super-secret-jwt-key-12345"
   expiration-ms: 3600000  # 1 hour
